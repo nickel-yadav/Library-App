@@ -1,19 +1,22 @@
 {
-  "name": "digital-library",
+  "name": "mdn-express-lilbrary",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "devstart": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "async": "^3.2.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "mongoose": "^5.12.10",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.12",
-    "pg": "^8.7.1",
-    "pug": "^3.0.2"
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
