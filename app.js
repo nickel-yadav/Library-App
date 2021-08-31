@@ -19,8 +19,7 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');
 
 // view engine setup
-app.engine('ejs', require('express-ejs-extend'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 
